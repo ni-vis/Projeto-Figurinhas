@@ -1,0 +1,64 @@
+/* DOCUMENTO CSS */
+
+body {
+ 	 margin: 0 0 0 0 ;
+	 padding: 0 0 0 0;
+	 border: 0 0 0 0;
+	 font-family: sans-serif;
+	 background-color: black;
+}
+
+header {
+	background: linear-gradient(to bottom right, #ff9966 0%, #ffff66 100%);
+	height: 100px;
+	padding-top: 25px;
+	color: darkred;
+	text-align: center;
+	}
+
+main{
+	margin: 0px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+
+.box {
+	width: 250px;
+	height: 500px;
+	background-color: orange;
+	border-radius: 10px;
+	padding: 10px;
+	color: #f4efec;
+	text-align: inherit;
+	margin: 10px;
+}
+
+.box:hover{
+box-shadow: 6px 6px 10px;
+
+}
+
+.box h2{margin: 0 0 10px 0;
+padding: 0;
+}
+.box figure {width: 250px;
+	height: 200px;
+	background-color: #fcc279;
+	margin: 0;
+	padding: 0;
+}
+.box p{
+
+}
+footer{
+	background: linear-gradient(to bottom right, #ff9966 0%, #ffff66 100%);
+	height: 70px;
+	padding-top: 30px;
+	color: darkred;
+	text-align: center;
+}
